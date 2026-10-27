@@ -19,8 +19,12 @@ import {
 import es from './locales/es.json' with { type: 'json' };
 import ru from './locales/ru.json' with { type: 'json' };
 import zhCN from './locales/zh-CN.json' with { type: 'json' };
+//Walney - 27/10/2026
+import ptBR from './locales/pt-BR.json' with { type: 'json' };
 
-const CATALOGS = Object.freeze({ es, ru, 'zh-CN': zhCN });
+//Walney - 27/10/2026
+//const CATALOGS = Object.freeze({ es, ru, 'zh-CN': zhCN });
+const CATALOGS = Object.freeze({ es, ru, 'zh-CN': zhCN, 'pt-BR': ptBR });
 
 let currentLocale = DEFAULT_LOCALE;
 
